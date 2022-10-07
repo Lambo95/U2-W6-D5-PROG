@@ -1,0 +1,25 @@
+{
+  "name": "u2-w6-d5-prog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass assets/scss/app.scss assets/css/app.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambo95/U2-W6-D5-PROG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambo95/U2-W6-D5-PROG/issues"
+  },
+  "homepage": "https://github.com/Lambo95/U2-W6-D5-PROG#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
+    "sass-google-fonts": "^1.0.1"
+  }
+}
