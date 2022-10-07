@@ -10789,7 +10789,7 @@ textarea.form-control-lg {
 }
 
 #animated {
-  animation: carousel 15s infinite;
+  animation: rotateYanimate 15s infinite;
 }
 
 .mySlides {
@@ -10808,7 +10808,7 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-@keyframes carousel {
+@keyframes rotateYanimate {
   0% {
     transform: translateZ(-35vw) rotateY(0);
   }

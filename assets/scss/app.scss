@@ -18,7 +18,7 @@
 }
 
 #animated {
-  animation: carousel 15s infinite;
+  animation: rotateYanimate 15s infinite;
 }
 
 .mySlides {
@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-@keyframes carousel {
+@keyframes rotateYanimate {
   0% {
     transform: translateZ(-35vw) rotateY(0);
   }
