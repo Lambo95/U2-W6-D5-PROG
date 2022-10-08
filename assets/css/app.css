@@ -10771,6 +10771,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.dark-theme {
+  background-color: true;
+}
+
 .slideshow-container {
   position: relative;
   margin: 0;
