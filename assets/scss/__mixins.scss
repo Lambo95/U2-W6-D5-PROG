@@ -1,17 +1,23 @@
 @import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "../scss/_var";
 
 @mixin darkMode($dark: true) {
-  @if ($dark==true) {
-    background-color: $dark;
-    $navbar-dark-color: rgba($white, 0.55);
-    $dropdown-dark-bg: $gray-800;
-    $dropdown-dark-color: $gray-300;
-    $card-bg: $dark;
-    // $text: $light-gray;
-    $text-important: $white;
+  @if ($dark) {
+    background-color: $body-bg;
+    color: $text;
+    border-color: $body-bg;
   }
 }
 
 .dark-theme {
   @include darkMode(true);
+  & * {
+    background-color: inherit;
+  }
+  .navbar {
+    background-color: $navbar !important;
+  }
+  .footer {
+    background-color: $footer !important;
+  }
 }

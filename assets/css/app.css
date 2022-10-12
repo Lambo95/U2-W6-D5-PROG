@@ -10772,7 +10772,18 @@ textarea.form-control-lg {
   }
 }
 .dark-theme {
-  background-color: true;
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+.dark-theme * {
+  background-color: inherit;
+}
+.dark-theme .navbar {
+  background-color: rgba(141, 135, 135, 0.55) !important;
+}
+.dark-theme .footer {
+  background-color: rgba(141, 135, 135, 0.55) !important;
 }
 
 .slideshow-container {
